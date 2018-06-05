@@ -41,20 +41,24 @@ type Props = {
 }
 ```
 
-```js
-type Props = {
-    // Non-JSDoc comment for prop abc
-    abc: string,
-    // Non-JSDoc comment for prop def
-    def: number
-}
-```
-
-The output of the above failures gives the following two messages (per failure):
+The output of the above failure gives the following two messages:
 
 > You must provide a jsdoc comment for property 'abc'
 
 > You must provide a jsdoc comment for property 'def'
+
+```js
+type Props = {
+    // Non-JSDoc comment for prop abc
+    abc: string,
+    /** JSDoc comment for prop def */
+    def: number
+}
+```
+
+The output of the above failure gives the following message:
+
+> You must provide a jsdoc comment for property 'abc'
 
 ### Options
 
