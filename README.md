@@ -1,5 +1,9 @@
 # eslint-plugin-require-docs
 
+[![build status](https://travis-ci.org/findmypast-oss/eslint-plugin-require-docs.svg?branch=master)](https://travis-ci.org/findmypast-oss/eslint-plugin-require-docs)
+
+---
+
 An ESLint plugin to require code documentation
 
 ## Installation
