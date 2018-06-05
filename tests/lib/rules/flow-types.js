@@ -13,6 +13,11 @@ ruleTester.run("types", rule, {
     }`,
       options: [{ docType: "jsdoc" }],
       parser: "babel-eslint"
+    },
+    {
+      code: `type Props = {}`,
+      options: [{ docType: "jsdoc" }],
+      parser: "babel-eslint"
     }
   ],
 
