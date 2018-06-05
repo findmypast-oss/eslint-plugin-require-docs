@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-require-docs",
+  "version": "0.0.0",
+  "description": "An ESLint plugin to require code documentation",
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
+  "author": "findmypast",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findmypast-oss/eslint-plugin-require-docs"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "MIT"
+}
