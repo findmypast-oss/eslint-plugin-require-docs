@@ -1,5 +1,6 @@
 # eslint-plugin-require-docs
 
+[![npm version](https://badge.fury.io/js/eslint-plugin-require-docs.svg)](https://www.npmjs.com/package/eslint-plugin-require-docs)
 [![build status](https://travis-ci.org/findmypast-oss/eslint-plugin-require-docs.svg?branch=master)](https://travis-ci.org/findmypast-oss/eslint-plugin-require-docs)
 
 ---
