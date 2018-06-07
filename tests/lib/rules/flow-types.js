@@ -7,7 +7,7 @@ ruleTester.run("types", rule, {
     {
       code: `type Props = {
         /** JSDoc comment for prop abc */
-        abc: string, 
+        abc: string,
         /** JSDoc comment for prop def */
         def: number
     }`,
@@ -45,6 +45,16 @@ ruleTester.run("types", rule, {
             /** JSDoc comment for prop def */
             def: number
         }`,
+      options: [{ docType: "jsdoc" }],
+      parser: "babel-eslint",
+      errors: [
+        {
+          message: "You must provide a jsdoc comment for property 'abc'"
+        }
+      ]
+    },
+    {
+      code: `type Props = { abc: string }`,
       options: [{ docType: "jsdoc" }],
       parser: "babel-eslint",
       errors: [
