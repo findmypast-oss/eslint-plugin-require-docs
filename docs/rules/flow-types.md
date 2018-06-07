@@ -60,6 +60,14 @@ The output of the above failure gives the following message:
 
 > You must provide a jsdoc comment for property 'abc'
 
+```js
+type Props = { abc: string }
+```
+
+The output of the above failure gives the following message:
+
+> You must provide a jsdoc comment for property 'abc'
+
 ### Options
 
 Takes an object with the following properties:
